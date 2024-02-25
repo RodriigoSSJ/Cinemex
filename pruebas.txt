@@ -1,4 +1,4 @@
 Se realizo la carga de FrameWork Codeigniter 4
 Prueba de carga de la pagina index.php
 Error en una carga index.php
-
+Prueba del diseño y formulario de cine
