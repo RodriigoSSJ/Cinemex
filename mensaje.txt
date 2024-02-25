@@ -7,3 +7,4 @@ Se creo la Base de datos Cinemex
 Se realizo la conexion a DB en el index.php
 Se realizo una consulta a la base de datos
 Se realizo la insercion de venta de boletos
+Se realizo la insercion de registros de nueva funcion
