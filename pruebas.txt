@@ -1,1 +1,2 @@
 Se realizo la carga de FrameWork Codeigniter 4
+Prueba de carga de la pagina index.php
