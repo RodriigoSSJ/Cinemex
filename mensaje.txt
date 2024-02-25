@@ -1,2 +1,4 @@
 Se creo mensaje.txt
 Se creo el diseño del cine
+Se asignaron rutas en el index.php
+
