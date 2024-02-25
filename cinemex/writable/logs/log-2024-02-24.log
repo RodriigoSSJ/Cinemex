@@ -1,0 +1,64 @@
+INFO - 2024-02-24 00:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 00:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 00:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 00:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-24 01:09:15 --> mysqli_sql_exception: PROCEDURE cinemex.AddBoleto does not exist in C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CALL AddBoleto(...', 0)
+#1 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CALL AddBoleto(...')
+#2 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CALL AddBoleto(...')
+#3 C:\xampp\htdocs\cinemex\app\Controllers\Taquilla.php(46): CodeIgniter\Database\BaseConnection->query('CALL AddBoleto(...', Array)
+#4 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Taquilla->insertarBoleto()
+#5 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+#6 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cinemex\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-02-24 01:09:16 --> CodeIgniter\Database\Exceptions\DatabaseException: PROCEDURE cinemex.AddBoleto does not exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Taquilla.php(46): CodeIgniter\Database\BaseConnection->query('CALL AddBoleto(?, ?, ?, ?, ?, ?)', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarBoleto()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-24 01:09:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: PROCEDURE cinemex.AddBoleto does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CALL AddBoleto(\'RODRIGO\', \'2\', NULL, \'200\', NULL, \'3\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CALL AddBoleto(\'RODRIGO\', \'2\', NULL, \'200\', NULL, \'3\')')
+ 3 APPPATH\Controllers\Taquilla.php(46): CodeIgniter\Database\BaseConnection->query('CALL AddBoleto(?, ?, ?, ?, ?, ?)', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarBoleto()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-24 01:09:16 --> [Caused by] mysqli_sql_exception: PROCEDURE cinemex.AddBoleto does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('CALL AddBoleto(\'RODRIGO\', \'2\', NULL, \'200\', NULL, \'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CALL AddBoleto(\'RODRIGO\', \'2\', NULL, \'200\', NULL, \'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CALL AddBoleto(\'RODRIGO\', \'2\', NULL, \'200\', NULL, \'3\')')
+ 4 APPPATH\Controllers\Taquilla.php(46): CodeIgniter\Database\BaseConnection->query('CALL AddBoleto(?, ?, ?, ?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarBoleto()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-24 01:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 01:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 02:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 02:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 02:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-24 02:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

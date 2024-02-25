@@ -1,0 +1,391 @@
+INFO - 2024-02-23 01:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 02:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 05:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 16:42:30 --> ErrorException: Attempt to read property "PeliculaId" on string
+in APPPATH\Views\Cartelera\index.php on line 43.
+ 1 APPPATH\Views\Cartelera\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "PeliculaId" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 16:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 16:42:42 --> ErrorException: Attempt to read property "Pelicula_Id" on string
+in APPPATH\Views\Cartelera\index.php on line 43.
+ 1 APPPATH\Views\Cartelera\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Pelicula_Id" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 16:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 16:43:09 --> ErrorException: Attempt to read property "PeliculaId" on string
+in APPPATH\Views\Cartelera\index.php on line 43.
+ 1 APPPATH\Views\Cartelera\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "PeliculaId" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 16:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 16:43:30 --> ErrorException: Attempt to read property "Pelicula_Nombre" on string
+in APPPATH\Views\Cartelera\index.php on line 43.
+ 1 APPPATH\Views\Cartelera\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Pelicula_Nombre" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 16:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 16:46:06 --> ErrorException: Attempt to read property "Pelicula_Nombre" on string
+in APPPATH\Views\Cartelera\index.php on line 43.
+ 1 APPPATH\Views\Cartelera\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Pelicula_Nombre" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 16:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 16:46:07 --> ErrorException: Attempt to read property "Pelicula_Nombre" on string
+in APPPATH\Views\Cartelera\index.php on line 43.
+ 1 APPPATH\Views\Cartelera\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Pelicula_Nombre" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 16:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 16:46:08 --> ErrorException: Attempt to read property "Pelicula_Nombre" on string
+in APPPATH\Views\Cartelera\index.php on line 43.
+ 1 APPPATH\Views\Cartelera\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Pelicula_Nombre" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 16:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 16:46:29 --> ErrorException: Attempt to read property "PeliculaId" on string
+in APPPATH\Views\Cartelera\index.php on line 43.
+ 1 APPPATH\Views\Cartelera\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "PeliculaId" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 16:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 16:46:30 --> ErrorException: Attempt to read property "PeliculaId" on string
+in APPPATH\Views\Cartelera\index.php on line 43.
+ 1 APPPATH\Views\Cartelera\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "PeliculaId" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 16:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-23 16:46:31 --> ErrorException: Attempt to read property "PeliculaId" on string
+in APPPATH\Views\Cartelera\index.php on line 43.
+ 1 APPPATH\Views\Cartelera\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "PeliculaId" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 16:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 16:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-23 17:38:47 --> mysqli_sql_exception: Unknown column 'nombre' in 'field list' in C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\cinemex\app\Controllers\Taquilla.php(37): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+#6 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+#7 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cinemex\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-23 17:38:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_cat_pelicula` (`nombre`, `url`, `precio`) VALUES (:nombre:, :url:, :precio:)', [...], false)
+ 2 APPPATH\Controllers\Taquilla.php(37): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 17:38:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_cat_pelicula` (`nombre`, `url`, `precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_cat_pelicula` (`nombre`, `url`, `precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_cat_pelicula` (`nombre`, `url`, `precio`) VALUES (:nombre:, :url:, :precio:)', [...], false)
+ 4 APPPATH\Controllers\Taquilla.php(37): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 17:38:47 --> [Caused by] mysqli_sql_exception: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_cat_pelicula` (`nombre`, `url`, `precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_cat_pelicula` (`nombre`, `url`, `precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_cat_pelicula` (`nombre`, `url`, `precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_cat_pelicula` (`nombre`, `url`, `precio`) VALUES (:nombre:, :url:, :precio:)', [...], false)
+ 5 APPPATH\Controllers\Taquilla.php(37): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 17:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-23 17:41:26 --> mysqli_sql_exception: Unknown column 'nombre1' in 'field list' in C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\cinemex\app\Controllers\Taquilla.php(37): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+#6 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+#7 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cinemex\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-23 17:41:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre1' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_cat_pelicula` (`nombre1`, `url`, `precio`) VALUES (:nombre1:, :url:, :precio:)', [...], false)
+ 2 APPPATH\Controllers\Taquilla.php(37): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 17:41:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre1' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_cat_pelicula` (`nombre1`, `url`, `precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_cat_pelicula` (`nombre1`, `url`, `precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_cat_pelicula` (`nombre1`, `url`, `precio`) VALUES (:nombre1:, :url:, :precio:)', [...], false)
+ 4 APPPATH\Controllers\Taquilla.php(37): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 17:41:26 --> [Caused by] mysqli_sql_exception: Unknown column 'nombre1' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_cat_pelicula` (`nombre1`, `url`, `precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_cat_pelicula` (`nombre1`, `url`, `precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_cat_pelicula` (`nombre1`, `url`, `precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_cat_pelicula` (`nombre1`, `url`, `precio`) VALUES (:nombre1:, :url:, :precio:)', [...], false)
+ 5 APPPATH\Controllers\Taquilla.php(37): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 17:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-23 17:41:51 --> mysqli_sql_exception: Unknown column 'Pelciula_Precio' in 'field list' in C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\cinemex\app\Controllers\Taquilla.php(37): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+#6 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+#7 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cinemex\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-23 17:41:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Pelciula_Precio' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_cat_pelicula` (`Pelicula_Nombre`, `Pelicula_URL`, `Pelciula_Precio`) VALUES (:Pelicula_Nombre:, :Pelicula_URL:, :Pelciula_Precio:)', [...], false)
+ 2 APPPATH\Controllers\Taquilla.php(37): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 17:41:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Pelciula_Precio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_cat_pelicula` (`Pelicula_Nombre`, `Pelicula_URL`, `Pelciula_Precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_cat_pelicula` (`Pelicula_Nombre`, `Pelicula_URL`, `Pelciula_Precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_cat_pelicula` (`Pelicula_Nombre`, `Pelicula_URL`, `Pelciula_Precio`) VALUES (:Pelicula_Nombre:, :Pelicula_URL:, :Pelciula_Precio:)', [...], false)
+ 4 APPPATH\Controllers\Taquilla.php(37): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 17:41:52 --> [Caused by] mysqli_sql_exception: Unknown column 'Pelciula_Precio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_cat_pelicula` (`Pelicula_Nombre`, `Pelicula_URL`, `Pelciula_Precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_cat_pelicula` (`Pelicula_Nombre`, `Pelicula_URL`, `Pelciula_Precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_cat_pelicula` (`Pelicula_Nombre`, `Pelicula_URL`, `Pelciula_Precio`) VALUES (\'Bad Boys\', \'gegrge\', \'30\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_cat_pelicula` (`Pelicula_Nombre`, `Pelicula_URL`, `Pelciula_Precio`) VALUES (:Pelicula_Nombre:, :Pelicula_URL:, :Pelciula_Precio:)', [...], false)
+ 5 APPPATH\Controllers\Taquilla.php(37): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 17:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-23 17:55:03 --> mysqli_sql_exception: Unknown column '_Pelicula_IRL' in 'field list' in C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CALL AddPelicul...', 0)
+#1 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CALL AddPelicul...')
+#2 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CALL AddPelicul...')
+#3 C:\xampp\htdocs\cinemex\app\Controllers\Taquilla.php(27): CodeIgniter\Database\BaseConnection->query('CALL AddPelicul...', Array)
+#4 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+#5 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+#6 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cinemex\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-02-23 17:55:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '_Pelicula_IRL' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Taquilla.php(27): CodeIgniter\Database\BaseConnection->query('CALL AddPelicula(?, ?, ?)', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 17:55:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '_Pelicula_IRL' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CALL AddPelicula(\'234\', \'32\', \'342\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CALL AddPelicula(\'234\', \'32\', \'342\')')
+ 3 APPPATH\Controllers\Taquilla.php(27): CodeIgniter\Database\BaseConnection->query('CALL AddPelicula(?, ?, ?)', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 17:55:03 --> [Caused by] mysqli_sql_exception: Unknown column '_Pelicula_IRL' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('CALL AddPelicula(\'234\', \'32\', \'342\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CALL AddPelicula(\'234\', \'32\', \'342\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CALL AddPelicula(\'234\', \'32\', \'342\')')
+ 4 APPPATH\Controllers\Taquilla.php(27): CodeIgniter\Database\BaseConnection->query('CALL AddPelicula(?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->insertarPelicula()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-23 17:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 17:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 18:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 18:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 18:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 18:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 18:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 18:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 18:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-23 18:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

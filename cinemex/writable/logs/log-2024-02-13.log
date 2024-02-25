@@ -1,0 +1,263 @@
+INFO - 2024-02-13 01:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 01:32:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\cinemex\app\Controllers\Taquilla.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+#5 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+#6 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cinemex\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\cinemex\app\Controllers\Taquilla.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#3 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+#4 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+#5 C:\xampp\htdocs\cinemex\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cinemex\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-02-13 01:32:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Taquilla.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_cat_pelicula')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 01:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 01:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 01:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 01:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 01:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 01:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 01:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 02:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 05:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 06:56:38 --> ErrorException: Attempt to read property "PeliculaId" on string
+in APPPATH\Views\Cartelera\Index.php on line 41.
+ 1 APPPATH\Views\Cartelera\Index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "PeliculaId" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 06:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 06:57:07 --> ErrorException: Attempt to read property "PeliculaId" on string
+in APPPATH\Views\Cartelera\Index.php on line 41.
+ 1 APPPATH\Views\Cartelera\Index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "PeliculaId" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 06:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 06:57:38 --> ErrorException: Attempt to read property "Pelicula_Nombre" on string
+in APPPATH\Views\Cartelera\Index.php on line 41.
+ 1 APPPATH\Views\Cartelera\Index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Pelicula_Nombre" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 06:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 06:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 06:59:51 --> ErrorException: Attempt to read property "Pelicula_Nombre" on string
+in APPPATH\Views\Cartelera\Index.php on line 41.
+ 1 APPPATH\Views\Cartelera\Index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Pelicula_Nombre" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 07:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:01:50 --> ErrorException: Undefined variable $peliculas
+in APPPATH\Views\Cartelera\Index.php on line 40.
+ 1 APPPATH\Views\Cartelera\Index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $peliculas', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 07:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:02:03 --> ErrorException: Attempt to read property "PeliculaId" on string
+in APPPATH\Views\Cartelera\Index.php on line 41.
+ 1 APPPATH\Views\Cartelera\Index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "PeliculaId" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 07:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:02:36 --> ErrorException: Attempt to read property "Pelicula_Nombre" on string
+in APPPATH\Views\Cartelera\Index.php on line 41.
+ 1 APPPATH\Views\Cartelera\Index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Pelicula_Nombre" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 07:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:03:29 --> ErrorException: Attempt to read property "PeliculaId" on string
+in APPPATH\Views\Cartelera\Index.php on line 41.
+ 1 APPPATH\Views\Cartelera\Index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "PeliculaId" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 07:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:03:53 --> ErrorException: Attempt to read property "Pelicula_Nombre" on string
+in APPPATH\Views\Cartelera\Index.php on line 41.
+ 1 APPPATH\Views\Cartelera\Index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Pelicula_Nombre" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 07:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:04:11 --> ErrorException: Attempt to read property "PeliculaId" on string
+in APPPATH\Views\Cartelera\Index.php on line 41.
+ 1 APPPATH\Views\Cartelera\Index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "PeliculaId" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 07:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:05:44 --> ErrorException: Attempt to read property "PeliculaId" on string
+in APPPATH\Views\Cartelera\Index.php on line 41.
+ 1 APPPATH\Views\Cartelera\Index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "PeliculaId" on string', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 07:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 07:07:13 --> ErrorException: Undefined variable $peliculas
+in APPPATH\Views\Cartelera\Index.php on line 40.
+ 1 APPPATH\Views\Cartelera\Index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $peliculas', 'C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php', 40)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cinemex\\app\\Views\\Cartelera\\Index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Cartelera/Index', [], true)
+ 5 APPPATH\Controllers\Taquilla.php(14): view('Cartelera/Index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Taquilla->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Taquilla))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-13 07:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 07:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 08:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 20:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 20:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 20:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 20:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 20:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 20:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
