@@ -4,3 +4,4 @@ Se asignaron rutas en el index.php
 Se creo un archivo o vista llamado taquilla.php
 Se creo el diagrama entidad relacion 
 Se creo la Base de datos Cinemex
+Se realizo la conexion a DB en el index.php
