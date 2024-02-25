@@ -3,3 +3,4 @@ Se creo el diseño del cine
 Se asignaron rutas en el index.php
 Se creo un archivo o vista llamado taquilla.php
 Se creo el diagrama entidad relacion 
+Se creo la Base de datos Cinemex
