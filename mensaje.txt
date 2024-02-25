@@ -1,1 +1,2 @@
 Se creo mensaje.txt
+Se creo el diseño del cine
