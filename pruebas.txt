@@ -4,3 +4,4 @@ Error en una carga index.php
 Prueba del diseño y formulario de cine
 Prueba de conexion a la base de datos
 Prueba de consulta a la base de datos
+Prueba de rutas entre metodos POST
